@@ -1,4 +1,4 @@
-package user
+package account
 
 type raccoon struct {
 	// Name of the raccoon
@@ -12,5 +12,5 @@ type raccoon struct {
 }
 
 func CreateNewRaccoon(name string, age int, rizz string, aura int) *raccoon {
-	return &raccoon{Name: name, Age: age, Rizz: "rizz", Aura: aura} 
-}	
+	return &raccoon{Name: name, Age: age, Rizz: "rizz", Aura: aura}
+}
