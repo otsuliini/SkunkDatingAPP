@@ -1,9 +1,14 @@
-module raccoon-dating-app
+module github.com/otsuliini/SkunkDatingAPP
 
 go 1.23.3
 
 require (
-	fyne.io/fyne/v2 v2.5.5 // indirect
+	fyne.io/fyne/v2 v2.5.5
+	gorm.io/driver/sqlite v1.5.7
+	gorm.io/gorm v1.25.12
+)
+
+require (
 	fyne.io/systray v1.11.0 // indirect
 	github.com/BurntSushi/toml v1.4.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -37,6 +42,4 @@ require (
 	golang.org/x/sys v0.20.0 // indirect
 	golang.org/x/text v0.16.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gorm.io/driver/sqlite v1.5.7 // indirect
-	gorm.io/gorm v1.25.12 // indirect
 )
