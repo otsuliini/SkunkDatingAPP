@@ -5,5 +5,5 @@ import (
 	"fyne.io/fyne/v2/widget"
 )
 func window() {
-	
+
 }
